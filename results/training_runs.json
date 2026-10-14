@@ -1,0 +1,142 @@
+[
+  {
+    "variant": "builtin",
+    "seed": 0,
+    "steps": 1000000,
+    "seconds": 275.69341468811035,
+    "model": "/home/user/rocket-lander-rl/results/models/builtin_s0.zip"
+  },
+  {
+    "variant": "builtin",
+    "seed": 1,
+    "steps": 1000000,
+    "seconds": 274.45331048965454,
+    "model": "/home/user/rocket-lander-rl/results/models/builtin_s1.zip"
+  },
+  {
+    "variant": "builtin",
+    "seed": 2,
+    "steps": 1000000,
+    "seconds": 268.5039632320404,
+    "model": "/home/user/rocket-lander-rl/results/models/builtin_s2.zip"
+  },
+  {
+    "variant": "builtin",
+    "seed": 3,
+    "steps": 1000000,
+    "seconds": 269.66838669776917,
+    "model": "/home/user/rocket-lander-rl/results/models/builtin_s3.zip"
+  },
+  {
+    "variant": "builtin",
+    "seed": 4,
+    "steps": 1000000,
+    "seconds": 264.5556743144989,
+    "model": "/home/user/rocket-lander-rl/results/models/builtin_s4.zip"
+  },
+  {
+    "variant": "time_fee",
+    "seed": 0,
+    "steps": 1000000,
+    "seconds": 263.9414920806885,
+    "model": "/home/user/rocket-lander-rl/results/models/time_fee_s0.zip"
+  },
+  {
+    "variant": "time_fee",
+    "seed": 1,
+    "steps": 1000000,
+    "seconds": 263.7684597969055,
+    "model": "/home/user/rocket-lander-rl/results/models/time_fee_s1.zip"
+  },
+  {
+    "variant": "time_fee",
+    "seed": 2,
+    "steps": 1000000,
+    "seconds": 261.539137840271,
+    "model": "/home/user/rocket-lander-rl/results/models/time_fee_s2.zip"
+  },
+  {
+    "variant": "time_fee",
+    "seed": 3,
+    "steps": 1000000,
+    "seconds": 263.29903769493103,
+    "model": "/home/user/rocket-lander-rl/results/models/time_fee_s3.zip"
+  },
+  {
+    "variant": "time_fee",
+    "seed": 4,
+    "steps": 1000000,
+    "seconds": 260.54668855667114,
+    "model": "/home/user/rocket-lander-rl/results/models/time_fee_s4.zip"
+  },
+  {
+    "variant": "hover_hack",
+    "seed": 0,
+    "steps": 1000000,
+    "seconds": 266.3430709838867,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_hack_s0.zip"
+  },
+  {
+    "variant": "hover_hack",
+    "seed": 1,
+    "steps": 1000000,
+    "seconds": 258.4386103153229,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_hack_s1.zip"
+  },
+  {
+    "variant": "hover_hack",
+    "seed": 2,
+    "steps": 1000000,
+    "seconds": 275.9933683872223,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_hack_s2.zip"
+  },
+  {
+    "variant": "hover_hack",
+    "seed": 3,
+    "steps": 1000000,
+    "seconds": 274.5685136318207,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_hack_s3.zip"
+  },
+  {
+    "variant": "hover_hack",
+    "seed": 4,
+    "steps": 1000000,
+    "seconds": 274.0955808162689,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_hack_s4.zip"
+  },
+  {
+    "variant": "hover_fixed",
+    "seed": 0,
+    "steps": 1000000,
+    "seconds": 277.0826861858368,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_fixed_s0.zip"
+  },
+  {
+    "variant": "hover_fixed",
+    "seed": 1,
+    "steps": 1000000,
+    "seconds": 273.46691370010376,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_fixed_s1.zip"
+  },
+  {
+    "variant": "hover_fixed",
+    "seed": 2,
+    "steps": 1000000,
+    "seconds": 272.6692633628845,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_fixed_s2.zip"
+  },
+  {
+    "variant": "hover_fixed",
+    "seed": 3,
+    "steps": 1000000,
+    "seconds": 276.60205936431885,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_fixed_s3.zip"
+  },
+  {
+    "variant": "hover_fixed",
+    "seed": 4,
+    "steps": 1000000,
+    "seconds": 275.19927310943604,
+    "model": "/home/user/rocket-lander-rl/results/models/hover_fixed_s4.zip"
+  }
+]

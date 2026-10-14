@@ -1,0 +1,740 @@
+{
+  "episodes_per_model": 100,
+  "seeds": 5,
+  "nominal": {
+    "builtin": {
+      "n": 500,
+      "mean_return": 263.05603697893275,
+      "solved_rate": 0.994,
+      "landed_on_pad": 0.998,
+      "landed": 0.998,
+      "crashed": 0.0,
+      "timeout": 0.002,
+      "mean_length": 312.008,
+      "mean_main_fires": 147.214,
+      "landed_on_pad_ci": [
+        0.9887590072528046,
+        0.9996468726904154
+      ],
+      "timeout_ci": [
+        0.000353127309584542,
+        0.011240992747195207
+      ],
+      "per_seed": [
+        {
+          "n": 100,
+          "mean_return": 256.65708849068346,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 339.16,
+          "mean_main_fires": 164.89
+        },
+        {
+          "n": 100,
+          "mean_return": 258.00209701355413,
+          "solved_rate": 0.98,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 334.82,
+          "mean_main_fires": 160.83
+        },
+        {
+          "n": 100,
+          "mean_return": 264.8058886160467,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 291.19,
+          "mean_main_fires": 140.97
+        },
+        {
+          "n": 100,
+          "mean_return": 264.07253488533553,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 306.91,
+          "mean_main_fires": 144.55
+        },
+        {
+          "n": 100,
+          "mean_return": 271.74257588904374,
+          "solved_rate": 0.99,
+          "landed_on_pad": 0.99,
+          "landed": 0.99,
+          "crashed": 0.0,
+          "timeout": 0.01,
+          "mean_length": 287.96,
+          "mean_main_fires": 124.83
+        }
+      ]
+    },
+    "time_fee": {
+      "n": 500,
+      "mean_return": 263.527416097693,
+      "solved_rate": 0.994,
+      "landed_on_pad": 0.988,
+      "landed": 0.998,
+      "crashed": 0.002,
+      "timeout": 0.0,
+      "mean_length": 296.77,
+      "mean_main_fires": 139.098,
+      "landed_on_pad_ci": [
+        0.9740692922810136,
+        0.9944890800328247
+      ],
+      "timeout_ci": [
+        0.0,
+        0.007624618530903363
+      ],
+      "per_seed": [
+        {
+          "n": 100,
+          "mean_return": 263.88903953694165,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 302.6,
+          "mean_main_fires": 144.61
+        },
+        {
+          "n": 100,
+          "mean_return": 267.41575313017415,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 284.66,
+          "mean_main_fires": 131.71
+        },
+        {
+          "n": 100,
+          "mean_return": 251.24781038701482,
+          "solved_rate": 0.99,
+          "landed_on_pad": 0.99,
+          "landed": 0.99,
+          "crashed": 0.01,
+          "timeout": 0.0,
+          "mean_length": 339.17,
+          "mean_main_fires": 167.42
+        },
+        {
+          "n": 100,
+          "mean_return": 265.42660806319407,
+          "solved_rate": 0.99,
+          "landed_on_pad": 0.97,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 274.94,
+          "mean_main_fires": 121.79
+        },
+        {
+          "n": 100,
+          "mean_return": 269.65786937114,
+          "solved_rate": 0.99,
+          "landed_on_pad": 0.98,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 282.48,
+          "mean_main_fires": 129.96
+        }
+      ]
+    },
+    "hover_hack": {
+      "n": 500,
+      "mean_return": -29.238995462551017,
+      "solved_rate": 0.004,
+      "landed_on_pad": 0.048,
+      "landed": 0.048,
+      "crashed": 0.002,
+      "timeout": 0.95,
+      "mean_length": 992.572,
+      "mean_main_fires": 566.4,
+      "landed_on_pad_ci": [
+        0.03246497509125218,
+        0.07042768006068446
+      ],
+      "timeout_ci": [
+        0.9272313499731688,
+        0.965906493349018
+      ],
+      "per_seed": [
+        {
+          "n": 100,
+          "mean_return": 36.41258151556013,
+          "solved_rate": 0.02,
+          "landed_on_pad": 0.22,
+          "landed": 0.22,
+          "crashed": 0.0,
+          "timeout": 0.78,
+          "mean_length": 963.28,
+          "mean_main_fires": 545.29
+        },
+        {
+          "n": 100,
+          "mean_return": -7.3162989909306315,
+          "solved_rate": 0.0,
+          "landed_on_pad": 0.02,
+          "landed": 0.02,
+          "crashed": 0.0,
+          "timeout": 0.98,
+          "mean_length": 999.68,
+          "mean_main_fires": 570.4
+        },
+        {
+          "n": 100,
+          "mean_return": -18.306127369554464,
+          "solved_rate": 0.0,
+          "landed_on_pad": 0.0,
+          "landed": 0.0,
+          "crashed": 0.0,
+          "timeout": 1.0,
+          "mean_length": 1000.0,
+          "mean_main_fires": 574.3
+        },
+        {
+          "n": 100,
+          "mean_return": -131.1656969310594,
+          "solved_rate": 0.0,
+          "landed_on_pad": 0.0,
+          "landed": 0.0,
+          "crashed": 0.0,
+          "timeout": 1.0,
+          "mean_length": 1000.0,
+          "mean_main_fires": 572.62
+        },
+        {
+          "n": 100,
+          "mean_return": -25.81943553677073,
+          "solved_rate": 0.0,
+          "landed_on_pad": 0.0,
+          "landed": 0.0,
+          "crashed": 0.01,
+          "timeout": 0.99,
+          "mean_length": 999.9,
+          "mean_main_fires": 569.39
+        }
+      ]
+    },
+    "hover_fixed": {
+      "n": 500,
+      "mean_return": 258.9204726761451,
+      "solved_rate": 0.982,
+      "landed_on_pad": 0.982,
+      "landed": 0.988,
+      "crashed": 0.002,
+      "timeout": 0.01,
+      "mean_length": 324.82,
+      "mean_main_fires": 149.572,
+      "landed_on_pad_ci": [
+        0.9661479527879661,
+        0.9905019149482431
+      ],
+      "timeout_ci": [
+        0.004278690781520357,
+        0.023193435378764938
+      ],
+      "per_seed": [
+        {
+          "n": 100,
+          "mean_return": 258.66812729994365,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 338.11,
+          "mean_main_fires": 160.52
+        },
+        {
+          "n": 100,
+          "mean_return": 259.8478720411636,
+          "solved_rate": 0.99,
+          "landed_on_pad": 0.99,
+          "landed": 0.99,
+          "crashed": 0.0,
+          "timeout": 0.01,
+          "mean_length": 314.97,
+          "mean_main_fires": 142.95
+        },
+        {
+          "n": 100,
+          "mean_return": 248.26280242249794,
+          "solved_rate": 0.94,
+          "landed_on_pad": 0.94,
+          "landed": 0.97,
+          "crashed": 0.01,
+          "timeout": 0.02,
+          "mean_length": 341.35,
+          "mean_main_fires": 157.44
+        },
+        {
+          "n": 100,
+          "mean_return": 268.25874274946966,
+          "solved_rate": 0.98,
+          "landed_on_pad": 0.98,
+          "landed": 0.98,
+          "crashed": 0.0,
+          "timeout": 0.02,
+          "mean_length": 287.26,
+          "mean_main_fires": 124.19
+        },
+        {
+          "n": 100,
+          "mean_return": 259.56481886765073,
+          "solved_rate": 1.0,
+          "landed_on_pad": 1.0,
+          "landed": 1.0,
+          "crashed": 0.0,
+          "timeout": 0.0,
+          "mean_length": 342.41,
+          "mean_main_fires": 162.76
+        }
+      ]
+    },
+    "heuristic": {
+      "n": 500,
+      "mean_return": 243.96334658784966,
+      "solved_rate": 0.914,
+      "landed_on_pad": 0.798,
+      "landed": 0.938,
+      "crashed": 0.048,
+      "timeout": 0.014,
+      "mean_length": 255.174,
+      "mean_main_fires": 94.254,
+      "landed_on_pad_ci": [
+        0.7605963875890438,
+        0.8308593397665378
+      ],
+      "timeout_ci": [
+        0.006797703071787358,
+        0.02861342614025071
+      ]
+    },
+    "random": {
+      "n": 500,
+      "mean_return": -184.89302831142967,
+      "solved_rate": 0.0,
+      "landed_on_pad": 0.0,
+      "landed": 0.0,
+      "crashed": 1.0,
+      "timeout": 0.0,
+      "mean_length": 91.956,
+      "mean_main_fires": 23.066,
+      "landed_on_pad_ci": [
+        0.0,
+        0.007624618530903363
+      ],
+      "timeout_ci": [
+        0.0,
+        0.007624618530903363
+      ]
+    }
+  },
+  "robustness": {
+    "nominal": {
+      "builtin": {
+        "n": 500,
+        "mean_return": 263.05603697893275,
+        "solved_rate": 0.994,
+        "landed_on_pad": 0.998,
+        "landed": 0.998,
+        "crashed": 0.0,
+        "timeout": 0.002,
+        "mean_length": 312.008,
+        "mean_main_fires": 147.214,
+        "landed_on_pad_ci": [
+          0.9887590072528046,
+          0.9996468726904154
+        ],
+        "timeout_ci": [
+          0.000353127309584542,
+          0.011240992747195207
+        ]
+      },
+      "time_fee": {
+        "n": 500,
+        "mean_return": 263.527416097693,
+        "solved_rate": 0.994,
+        "landed_on_pad": 0.988,
+        "landed": 0.998,
+        "crashed": 0.002,
+        "timeout": 0.0,
+        "mean_length": 296.77,
+        "mean_main_fires": 139.098,
+        "landed_on_pad_ci": [
+          0.9740692922810136,
+          0.9944890800328247
+        ],
+        "timeout_ci": [
+          0.0,
+          0.007624618530903363
+        ]
+      },
+      "hover_fixed": {
+        "n": 500,
+        "mean_return": 258.9204726761451,
+        "solved_rate": 0.982,
+        "landed_on_pad": 0.982,
+        "landed": 0.988,
+        "crashed": 0.002,
+        "timeout": 0.01,
+        "mean_length": 324.82,
+        "mean_main_fires": 149.572,
+        "landed_on_pad_ci": [
+          0.9661479527879661,
+          0.9905019149482431
+        ],
+        "timeout_ci": [
+          0.004278690781520357,
+          0.023193435378764938
+        ]
+      },
+      "heuristic": {
+        "n": 500,
+        "mean_return": 243.96334658784966,
+        "solved_rate": 0.914,
+        "landed_on_pad": 0.798,
+        "landed": 0.938,
+        "crashed": 0.048,
+        "timeout": 0.014,
+        "mean_length": 255.174,
+        "mean_main_fires": 94.254,
+        "landed_on_pad_ci": [
+          0.7605963875890438,
+          0.8308593397665378
+        ],
+        "timeout_ci": [
+          0.006797703071787358,
+          0.02861342614025071
+        ]
+      }
+    },
+    "wind 10": {
+      "builtin": {
+        "n": 500,
+        "mean_return": 197.88725768890072,
+        "solved_rate": 0.76,
+        "landed_on_pad": 0.724,
+        "landed": 0.77,
+        "crashed": 0.21,
+        "timeout": 0.02,
+        "mean_length": 343.21,
+        "mean_main_fires": 144.2,
+        "landed_on_pad_ci": [
+          0.6832216523131053,
+          0.76136251858505
+        ],
+        "timeout_ci": [
+          0.010899065235569357,
+          0.03642056855409787
+        ]
+      },
+      "time_fee": {
+        "n": 500,
+        "mean_return": 203.0212983205728,
+        "solved_rate": 0.762,
+        "landed_on_pad": 0.668,
+        "landed": 0.79,
+        "crashed": 0.176,
+        "timeout": 0.034,
+        "mean_length": 345.118,
+        "mean_main_fires": 136.282,
+        "landed_on_pad_ci": [
+          0.6255778658042676,
+          0.707860262369349
+        ],
+        "timeout_ci": [
+          0.02133433944461342,
+          0.053771805026188516
+        ]
+      },
+      "hover_fixed": {
+        "n": 500,
+        "mean_return": 188.55254880166862,
+        "solved_rate": 0.71,
+        "landed_on_pad": 0.622,
+        "landed": 0.768,
+        "crashed": 0.214,
+        "timeout": 0.018,
+        "mean_length": 351.16,
+        "mean_main_fires": 147.03,
+        "landed_on_pad_ci": [
+          0.5787196479091447,
+          0.6634199451693149
+        ],
+        "timeout_ci": [
+          0.009498085051756854,
+          0.03385204721203399
+        ]
+      },
+      "heuristic": {
+        "n": 500,
+        "mean_return": 189.60085447378842,
+        "solved_rate": 0.72,
+        "landed_on_pad": 0.624,
+        "landed": 0.758,
+        "crashed": 0.236,
+        "timeout": 0.006,
+        "mean_length": 257.03,
+        "mean_main_fires": 93.144,
+        "landed_on_pad_ci": [
+          0.5807483730601202,
+          0.6653607215442159
+        ],
+        "timeout_ci": [
+          0.002042559297638913,
+          0.017490563810893606
+        ]
+      }
+    },
+    "wind 20 (max)": {
+      "builtin": {
+        "n": 500,
+        "mean_return": 29.216913962994973,
+        "solved_rate": 0.25,
+        "landed_on_pad": 0.192,
+        "landed": 0.282,
+        "crashed": 0.688,
+        "timeout": 0.03,
+        "mean_length": 284.972,
+        "mean_main_fires": 119.882,
+        "landed_on_pad_ci": [
+          0.15987567270959485,
+          0.22882109230544162
+        ],
+        "timeout_ci": [
+          0.018263049234083534,
+          0.04890409218496562
+        ]
+      },
+      "time_fee": {
+        "n": 500,
+        "mean_return": 45.95745134424685,
+        "solved_rate": 0.294,
+        "landed_on_pad": 0.172,
+        "landed": 0.37,
+        "crashed": 0.606,
+        "timeout": 0.024,
+        "mean_length": 283.28,
+        "mean_main_fires": 112.99,
+        "landed_on_pad_ci": [
+          0.1414536049779883,
+          0.20754814477828426
+        ],
+        "timeout_ci": [
+          0.013781177149521824,
+          0.04147745969189818
+        ]
+      },
+      "hover_fixed": {
+        "n": 500,
+        "mean_return": 18.69736608522562,
+        "solved_rate": 0.238,
+        "landed_on_pad": 0.164,
+        "landed": 0.304,
+        "crashed": 0.664,
+        "timeout": 0.032,
+        "mean_length": 304.882,
+        "mean_main_fires": 125.65,
+        "landed_on_pad_ci": [
+          0.13412841862886243,
+          0.19899532502390466
+        ],
+        "timeout_ci": [
+          0.01979134135128301,
+          0.05134530159364255
+        ]
+      },
+      "heuristic": {
+        "n": 500,
+        "mean_return": 26.066604822986246,
+        "solved_rate": 0.302,
+        "landed_on_pad": 0.21,
+        "landed": 0.32,
+        "crashed": 0.674,
+        "timeout": 0.006,
+        "mean_length": 202.66,
+        "mean_main_fires": 75.366,
+        "landed_on_pad_ci": [
+          0.17657669884786484,
+          0.2478455799000591
+        ],
+        "timeout_ci": [
+          0.002042559297638913,
+          0.017490563810893606
+        ]
+      }
+    },
+    "gravity -11.5 (heavier)": {
+      "builtin": {
+        "n": 500,
+        "mean_return": 256.7592506656413,
+        "solved_rate": 0.99,
+        "landed_on_pad": 0.99,
+        "landed": 0.99,
+        "crashed": 0.01,
+        "timeout": 0.0,
+        "mean_length": 307.944,
+        "mean_main_fires": 164.166,
+        "landed_on_pad_ci": [
+          0.976806564621235,
+          0.9957213092184797
+        ],
+        "timeout_ci": [
+          0.0,
+          0.007624618530903363
+        ]
+      },
+      "time_fee": {
+        "n": 500,
+        "mean_return": 259.159617207307,
+        "solved_rate": 0.99,
+        "landed_on_pad": 0.992,
+        "landed": 0.994,
+        "crashed": 0.006,
+        "timeout": 0.0,
+        "mean_length": 289.116,
+        "mean_main_fires": 154.98,
+        "landed_on_pad_ci": [
+          0.9796126401630988,
+          0.9968847352024922
+        ],
+        "timeout_ci": [
+          0.0,
+          0.007624618530903363
+        ]
+      },
+      "hover_fixed": {
+        "n": 500,
+        "mean_return": 253.95467610149686,
+        "solved_rate": 0.982,
+        "landed_on_pad": 0.986,
+        "landed": 0.99,
+        "crashed": 0.008,
+        "timeout": 0.002,
+        "mean_length": 313.532,
+        "mean_main_fires": 166.718,
+        "landed_on_pad_ci": [
+          0.9713865738597492,
+          0.9932022969282127
+        ],
+        "timeout_ci": [
+          0.000353127309584542,
+          0.011240992747195207
+        ]
+      },
+      "heuristic": {
+        "n": 500,
+        "mean_return": 145.99059127627254,
+        "solved_rate": 0.544,
+        "landed_on_pad": 0.486,
+        "landed": 0.558,
+        "crashed": 0.434,
+        "timeout": 0.008,
+        "mean_length": 179.664,
+        "mean_main_fires": 74.766,
+        "landed_on_pad_ci": [
+          0.4424642011735621,
+          0.5297492881453032
+        ],
+        "timeout_ci": [
+          0.0031152647975077885,
+          0.020387359836901122
+        ]
+      }
+    },
+    "gravity -8 (lighter)": {
+      "builtin": {
+        "n": 500,
+        "mean_return": 268.8810049591444,
+        "solved_rate": 0.99,
+        "landed_on_pad": 0.99,
+        "landed": 0.99,
+        "crashed": 0.0,
+        "timeout": 0.01,
+        "mean_length": 325.412,
+        "mean_main_fires": 121.76,
+        "landed_on_pad_ci": [
+          0.976806564621235,
+          0.9957213092184797
+        ],
+        "timeout_ci": [
+          0.004278690781520357,
+          0.023193435378764938
+        ]
+      },
+      "time_fee": {
+        "n": 500,
+        "mean_return": 268.22559605453245,
+        "solved_rate": 0.99,
+        "landed_on_pad": 0.982,
+        "landed": 0.994,
+        "crashed": 0.002,
+        "timeout": 0.004,
+        "mean_length": 310.95,
+        "mean_main_fires": 115.49,
+        "landed_on_pad_ci": [
+          0.9661479527879661,
+          0.9905019149482431
+        ],
+        "timeout_ci": [
+          0.0010976075412372681,
+          0.014466014041418871
+        ]
+      },
+      "hover_fixed": {
+        "n": 500,
+        "mean_return": 263.9781512401704,
+        "solved_rate": 0.976,
+        "landed_on_pad": 0.972,
+        "landed": 0.982,
+        "crashed": 0.002,
+        "timeout": 0.016,
+        "mean_length": 339.56,
+        "mean_main_fires": 124.008,
+        "landed_on_pad_ci": [
+          0.9535531794154484,
+          0.9832491806913788
+        ],
+        "timeout_ci": [
+          0.008129155320203278,
+          0.03125147541771118
+        ]
+      },
+      "heuristic": {
+        "n": 500,
+        "mean_return": 283.2375509152778,
+        "solved_rate": 0.998,
+        "landed_on_pad": 0.996,
+        "landed": 0.998,
+        "crashed": 0.002,
+        "timeout": 0.0,
+        "mean_length": 225.106,
+        "mean_main_fires": 79.948,
+        "landed_on_pad_ci": [
+          0.9855339859585811,
+          0.9989023924587627
+        ],
+        "timeout_ci": [
+          0.0,
+          0.007624618530903363
+        ]
+      }
+    }
+  }
+}
