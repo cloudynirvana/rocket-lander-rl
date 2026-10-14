@@ -59,7 +59,7 @@ cd rocket-lander-rl
 python -m venv .venv; .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 python -m pytest -q                                                      # 9 tests
-python experiments\run_all.py --stages eval figures gifs                 # re-evaluate the 20 included agents (~10 min)
+python experiments\run_all.py --stages eval gifs                         # re-evaluate the 20 included agents (~10 min)
 python experiments\run_all.py                                            # retrain everything (~1 h on 4 cores)
 explorer media
 ```
